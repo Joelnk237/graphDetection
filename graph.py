@@ -50,6 +50,6 @@ def plot_graph(graph, output_dir, filename="graph.jpg"):
     plt.title("Graph Visualisierung")
     
     output_path = os.path.join(output_dir, filename)
-    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight') # Graph speichern
     plt.close()
     print(f"Graph gespeichert unter: {output_path}")

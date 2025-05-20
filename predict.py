@@ -3,7 +3,7 @@ import sys
 import os
 import subprocess
 
-# Überprüfen und Installieren der erforderlichen Bibliotheken
+# Überprüfen und Installieren der erforderlichen Bibliotheken, falls nicht vorhanden
 try:
     from ultralytics import YOLO
 except ImportError:

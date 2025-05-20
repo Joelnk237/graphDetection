@@ -44,7 +44,7 @@ def preprocess_images(input_directory, resize_images=True):
                 print(f"Fehler bei der Bildvorverarbeitung {image_file}: {e}")
 
 if __name__ == "__main__":
-    # Vérifiez les arguments
+    # Argumente überprüfen
     if len(sys.argv) < 2 or len(sys.argv) > 3:
         print("Benutzung : python image_preprocessing.py <Pfad_des_Verzeichnis> [resize]")
         print("  <Pfad_des_Verzeichnis> : Verzeichnis mit den Bildern")
